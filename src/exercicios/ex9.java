@@ -1,0 +1,21 @@
+package exercicios;
+import java.time.LocalDate;
+import java.util.Scanner;
+
+public class ex9 {
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Digite o seu ano de nascimento: ");
+        int anoNascimento = sc.nextInt();
+
+        int anoAtual = LocalDate.now().getYear();
+        int idade = anoAtual - anoNascimento;
+
+        System.out.println("Sua idade é: "+ idade);
+
+        sc.close();
+
+    }
+
+}
