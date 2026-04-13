@@ -1,4 +1,4 @@
-package exercicios;
+package lista_exercicios;
 import java.util.Scanner;
 
 public class ex3 {
