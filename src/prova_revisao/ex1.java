@@ -1,4 +1,4 @@
-package prova01;
+package prova_revisao;
 import java.util.Scanner;
 
 public class ex1 {

@@ -1,14 +1,15 @@
-package lista_exercicios;
+package LISTA_01_AV1;
+import java.time.LocalDate;
 import java.util.Scanner;
 
-public class ex7 {
+public class ex9 {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite o seu ano de nascimento: ");
         int anoNascimento = sc.nextInt();
 
-        int anoAtual = 2026;
+        int anoAtual = LocalDate.now().getYear();
         int idade = anoAtual - anoNascimento;
 
         System.out.println("Sua idade é: "+ idade);
@@ -16,4 +17,5 @@ public class ex7 {
         sc.close();
 
     }
+
 }

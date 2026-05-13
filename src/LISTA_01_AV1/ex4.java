@@ -1,4 +1,4 @@
-package lista_exercicios;
+package LISTA_01_AV1;
 import java.util.Scanner;
 
 public class ex4 {

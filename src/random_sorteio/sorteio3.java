@@ -1,5 +1,4 @@
-package sorteio;
-import java.util.Random;
+package random_sorteio;
 
 public class sorteio3 {
     static void main(String[] args) {

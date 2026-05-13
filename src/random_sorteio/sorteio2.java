@@ -1,4 +1,4 @@
-package sorteio;
+package random_sorteio;
 import java.util.Scanner;
 import java.util.Random;
 

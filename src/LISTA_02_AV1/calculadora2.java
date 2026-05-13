@@ -1,4 +1,4 @@
-package lista_exercicios2;
+package LISTA_02_AV1;
 import java.util.Scanner;
 
 public class calculadora2 {

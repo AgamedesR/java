@@ -1,5 +1,4 @@
-package lista_exercicios;
-import java.sql.SQLOutput;
+package LISTA_01_AV1;
 import java.util.Scanner;
 
 public class ex1 {
