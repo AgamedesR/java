@@ -1,13 +1,14 @@
 package lista_exercicios;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class ex1 {
     public static void main(String[] args) {
-        // "sc" é o nome dado para usar o Scanner
-        Scanner sc = new Scanner(System.in);
+        // "entrada" é o nome dado para usar o Scanner
+        Scanner entrada = new Scanner(System.in);
 
         System.out.print("Digite um numero inteiro: ");
-        int numero = sc.nextInt();
+        int numero = entrada.nextInt();
 
         int antecessor = numero - 1;
         int sucessor = numero + 1;
@@ -15,6 +16,6 @@ public class ex1 {
         System.out.println("Antecessor: " + antecessor);
         System.out.println("Sucessor: " + sucessor);
 
-        sc.close();
+        entrada.close();
     }
 }
