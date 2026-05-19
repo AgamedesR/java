@@ -1,4 +1,4 @@
-package LISTA_01_AV1;
+package LISTA_AV1_01;
 import java.time.LocalDate;
 import java.util.Scanner;
 

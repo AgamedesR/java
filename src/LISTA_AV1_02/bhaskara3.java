@@ -1,4 +1,4 @@
-package LISTA_02_AV1;
+package LISTA_AV1_02;
 import java.util.Scanner;
 
 public class bhaskara3 {
